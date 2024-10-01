@@ -41,7 +41,7 @@ DataLab 的公开仓库地址为：https://github.com/RUCICS/datalab
 4. 如果没有冲突，它会在一段时间后，于下方显示 Merge 按钮，学生点击该按钮
 5. 点击后，学生于本地执行 `git pull` 即可完成合并
 
-## 重装解决 99% 的问题
+### 方法3：重来解决 99% 的问题
 
 打开自己作业的 github repo，找到 `Settings`，拉到最下方找到 `Delete this repository`，将作业仓库删除（注意在本地备份关键文件）
 
@@ -68,5 +68,3 @@ DataLab 的公开仓库地址为：https://github.com/RUCICS/datalab
 ![alt text](./imgs/6a42a7790de21c91a6f51fdfe256e70.png)
 
 请用方法 1 同步，或者重新接受一次作业
-
-
