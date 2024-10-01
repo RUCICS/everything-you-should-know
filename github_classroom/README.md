@@ -58,7 +58,7 @@ DataLab 的模板仓库地址为：https://github.com/RUCICS/datalab
 
 ## 已知的同步问题和解决方案
 
-### 没有显示有最新的 PR，或者是没有显示同步情况
+### 问题1：没有显示有最新的 PR，或者是没有显示同步情况
 
 正常的仓库应该有以下几条信息显示
 
@@ -72,7 +72,7 @@ DataLab 的模板仓库地址为：https://github.com/RUCICS/datalab
 
 如果你不想这样做，你也可以用方法 1 来同步
 
-### This branch has conflicts that must be resolved
+### 问题2：This branch has conflicts that must be resolved
 
 如果你的界面如下图，请用方法 1 同步，或者重新接受一次作业
 
@@ -82,7 +82,7 @@ DataLab 的模板仓库地址为：https://github.com/RUCICS/datalab
 
 ![alt text](imgs/image3.png)
 
-### 意外的冲突，`Review Assignment Due Date`
+### 问题3：意外的冲突，`Review Assignment Due Date`
 
 多数冲突是因为你的修改和助教的修改冲突导致的，这时候你应该保留助教的修改。
 
