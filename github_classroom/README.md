@@ -29,9 +29,12 @@
 DataLab 的模板仓库地址为：https://github.com/RUCICS/datalab
 
 1. 添加模板仓库地址 `git remote add template https://github.com/RUCICS/datalab`
-2. `git pull template main --allow-unrelated-histories`
+2. `git pull template main --allow-unrelated-histories`，这一步可能需要你解决冲突，如果你不知道怎么操作，请回头查看 git 那一章的教程
+3. `git push`
 
 这个方案事实上比下文的“傻瓜方案”还要简单，而且可以解决诸多奇怪的 BUG
+
+一般执行方法 1 成功后，方法 2 的 PR 会显示没有冲突，你可以点一下 Merge 关闭这个 PR（理想情况下，这个 PR 不会有任何实际修改，在你方法 1 操作正确的情况下）
 
 ### 方法2：使用 Github 主页的 PR 功能
 
@@ -48,6 +51,10 @@ DataLab 的模板仓库地址为：https://github.com/RUCICS/datalab
 打开自己作业的 github repo，找到 `Settings`，拉到最下方找到 `Delete this repository`，将作业仓库删除（注意在本地备份关键文件）
 
 重新打开助教发送的作业链接，重新接受本作业，即点击 `Reaccept`
+
+### 总结
+
+通常，在方法 2 可以正常运作的时候，优先用方法 2。不行时试着先用方法 1 ，再用方法 2，最后的解决方案是方法 3。
 
 ## 已知的同步问题和解决方案
 
