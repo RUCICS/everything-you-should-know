@@ -24,9 +24,9 @@
 
 这一功能较为完善，可以支持各种情况，比如 Github 有时检测到冲突并禁止在网页端合并，或者是 Github 有时候抽风没法发 PR 给所有同学。
 
-该流程依赖于一个 public 状态的公开仓库，一般助教会主动在实验的开始提供，以 DataLab 为例
+该流程依赖于一个 public 状态的模板仓库，一般助教会主动在实验的开始提供，以 DataLab 为例
 
-DataLab 的公开仓库地址为：https://github.com/RUCICS/datalab
+DataLab 的模板仓库地址为：https://github.com/RUCICS/datalab
 
 1. 添加模板仓库地址 `git remote add template https://github.com/RUCICS/datalab`
 2. `git pull template main --allow-unrelated-histories`
