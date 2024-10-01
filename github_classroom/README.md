@@ -1,5 +1,7 @@
 # Github Classroom 使用指南
 
+> 该教程假设你已经阅读了 shell 和 git 章节
+
 ## Github Classroom 工作流程
 
 1. 创建一个 Github 账号
@@ -65,6 +67,16 @@ DataLab 的公开仓库地址为：https://github.com/RUCICS/datalab
 
 ### This branch has conflicts that must be resolved
 
-![alt text](./imgs/6a42a7790de21c91a6f51fdfe256e70.png)
+如果你的界面如下图，请用方法 1 同步，或者重新接受一次作业
 
-请用方法 1 同步，或者重新接受一次作业
+![alt text](imgs/6a42a7790de21c91a6f51fdfe256e70.png)
+
+如果你的界面如下图，说明你的冲突被认为不严重，Github 允许你在网页端进行合并，点击右侧 Resolve conflicts 即可，具体冲突怎么处理请见 git 那章的教程
+
+![alt text](imgs/image3.png)
+
+### 意外的冲突，`Review Assignment Due Date`
+
+多数冲突是因为你的修改和助教的修改冲突导致的，这时候你应该保留助教的修改。
+
+一个特殊情况是 `Review Assignment Due Date`，它出现在 `README.md` 的开头，你有小概率遇到这个冲突，此时你可以删掉它，没啥用。
