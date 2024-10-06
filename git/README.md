@@ -76,12 +76,40 @@ Enter file in which to save the key (/home/jarden/.ssh/id_rsa):
 
 GitHub 在国外，很多时候下载速度慢，然而大多数命令行程序都没法直接走系统代理。
 
+注意，git 通过两种协议来访问，一种是 http，一种是 ssh，他们对应不同的代理配置，相当于你需要配两次：
+
+http 代理：
+
 ```
 git config --global http.proxy 'http://127.0.0.1:1080'
 git config --global https.proxy 'http://127.0.0.1:1080'
 ```
 
-设置的方法如上，具体的端口啥的你需要看你的代理软件是怎么设置的。
+ssh 代理：
+
+Windows 下：
+
+`C:\Users\${your username}\.ssh\config`
+
+```
+Host github.com                                                                                                          
+        Hostname ssh.github.com                                                                                          
+        Port 443                                                                                                         
+        User git
+        ProxyCommand connect -S 127.0.0.1:7890 %h %p
+```
+
+Unix-like 系统下：
+
+`~/.ssh/config`
+
+```
+Host github.com
+        Hostname ssh.github.com
+        Port 443
+        User git
+        ProxyCommand nc -v -x 172.28.208.1:7890 %h %p
+```
 
 ## Git 入门
 
