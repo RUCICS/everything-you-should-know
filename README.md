@@ -6,6 +6,7 @@
 
 ## 目录
 
+- [How To Ask](./ask/README.md)：这可能是最重要的章节，如何提问。内容清晰的提问有助于得到更好的解答，组织很差的问题助教可能会要求重新组织，并拒绝回答。
 - [VSCode](./vscode/README.md)：VSCode 的一些基本常识（TODO）
 - [WSL](./wsl/README.md)：WSL 的安装与配置
 - [Shell](./shell/README.md)：什么是命令行，怎么用
