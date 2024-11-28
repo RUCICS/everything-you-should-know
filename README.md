@@ -16,4 +16,3 @@
 - [Markdown](./markdown/README.md)：轻量级标记语言，程序员界的 Word 文档
 - [Make](./make/README.md)：Cxx 语言的构建工具，用于编译程序
 - [CMake](./cmake/README.md)：更高级的 Make，Cxx 语言的事实标准构建工具（TODO）
-- [How to ask a good question](./ask/README.md)：如何提问才能得到更好的帮助（TODO）
