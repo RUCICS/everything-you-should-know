@@ -12,6 +12,7 @@
 - [Shell](./shell/README.md)：什么是命令行，怎么用
 - [SSH](./ssh/README.md)：Secure Shell，远程登录服务器的 Shell
 - [Git 与 Github](./git/README.md)：版本控制工具与代码托管平台，我们常常说的开源是什么东西
+- [Github_Great_Firewall](./github_great_firewall/README.md)：wtf
 - [Github Classroom](./github_classroom/README.md)：你们的作业要用它
 - [Markdown](./markdown/README.md)：轻量级标记语言，程序员界的 Word 文档
 - [Make](./make/README.md)：Cxx 语言的构建工具，用于编译程序
